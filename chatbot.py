@@ -2,6 +2,8 @@
 import google.generativeai as genai 
 import streamlit as st
 
+genai.configure(api_key=MY_API_KEY)
+
 st.title("Gemini-Bot")
 
 @st.cache_resource
